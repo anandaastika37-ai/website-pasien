@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+
+body{
+    background-color: rgb(221, 221, 221);
+}
+
+.navbar{
+    background-color: rgb(249, 250, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}   
+
+.navbar > ul {
+    display: flex;
+    list-style: none;
+    margin: 50px;
+    justify-content: space-around;
+    width: 30%;
+}
+.navbar > ul > li{
+    font-family: sans-serif;
+}
+.logo{
+    width: 60%;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width:200px;
+}
+.logo h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}.navbar ul > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.pasien > span > a{
+    list-style: none;
+    color :green;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.stop>img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: end;
+    justify-content:space-around;
+    border-radius: 50%;
+
+
+}
